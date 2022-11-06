@@ -1,0 +1,14 @@
+// assuming your ts sources are in ./src/
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "~*": ["./*"]
+    },
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["dom", "es2018"],
+    "moduleResolution":"node"
+  },
+  "include": ["src/**/*"]
+}
